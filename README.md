@@ -2,6 +2,7 @@
 This repo provides an easy way to realize your daydream
 
 ## Compile
+You can skip this step via downloading the executable file on [release page](https://github.com/pranksteess/web3_lottery/releases/tag/v1.0.0), if you are using MacOS.
 ```
 go build -o web3_lottery main/main.go
 ```
