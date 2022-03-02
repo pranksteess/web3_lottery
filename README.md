@@ -1,9 +1,14 @@
 # How To Get Rich By Doing Nothing
-This library provides an easy way to realize your daydream
+This repo provides an easy way to realize your daydream
 
-## Compile & Run
+## Compile
 ```
 go build -o web3_lottery main/main.go
+```
+
+## Run
+```
+chmod +x ./web3_lottery
 nohup ./web3_lottery >> out.log &
 ```
 
