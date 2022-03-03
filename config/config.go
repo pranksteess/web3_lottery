@@ -26,5 +26,6 @@ func InitCfg(configFilePath string) error {
 
 type CfgServer struct {
 	WhaleETHAddr []string `yaml:"whale_eth_addr" json:"whale_eth_addr"`
+	CpuNumber    int      `yaml:"cpu_number" json:"cpu_number"`
 	SearchMethod string   `yaml:"search_method" json:"search_method"`
 }
