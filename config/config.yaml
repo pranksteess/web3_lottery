@@ -1,5 +1,5 @@
 search_method: "binary"
-cpu_number: 4
+cpu_number: 0
 whale_eth_addr:
   - "0000000000000000000000000000000000000000"
   - "000000000000000000000000000000000000dead"

@@ -71,8 +71,12 @@ func main() {
 	if err := config.InitCfg(""); err != nil {
 		fmt.Println("init failed")
 	}
-	// This configuration should be less than the number of CPU cores in your computer
+
 	cpuNumber := config.Cfg.CpuNumber
+	if cpuNumber == 0 {
+		cpuNumber = 1
+	}
+
 	if config.Cfg.SearchMethod == "binary" {
 		sort.Sort(sort.StringSlice(config.Cfg.WhaleETHAddr))
 		for i := 0; i < cpuNumber; i++ {
